@@ -10,8 +10,6 @@
         <module name="eureka" />
         <module name="configServer" />
         <module name="catalogo" />
-        <module name="gateway" />
-        <module name="filme" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
