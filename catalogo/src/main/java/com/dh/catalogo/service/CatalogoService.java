@@ -1,5 +1,9 @@
 package com.dh.catalogo.service;
 
+import com.dh.catalogo.dto.FilmeDto;
+
+import java.util.List;
+
 public interface CatalogoService {
-    String getFilme(String genero);
+    List<FilmeDto> getFilme(String genero);
 }

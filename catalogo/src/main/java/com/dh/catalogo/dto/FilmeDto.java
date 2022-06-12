@@ -1,9 +1,9 @@
-package com.dh.catalogo.model;
+package com.dh.catalogo.dto;
 
 import lombok.Data;
 
 @Data
-public class Filme {
+public class FilmeDto {
 
     private String nome;
     private String genero;

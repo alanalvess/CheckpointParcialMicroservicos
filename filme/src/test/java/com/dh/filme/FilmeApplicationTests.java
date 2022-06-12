@@ -1,10 +1,10 @@
-package com.dh.catalogo;
+package com.dh.filme;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class FilmeDtoApplicationTests {
+class FilmeApplicationTests {
 
 	@Test
 	void contextLoads() {
