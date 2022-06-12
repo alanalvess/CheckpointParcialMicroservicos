@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 @FeignClient(value = "FILME")
 public interface FilmeFeign {
-    @RequestMapping(method = RequestMethod.GET, value = "/catalogo/{genero}")
+    @RequestMapping(method = RequestMethod.GET, value = "/filme/{genero}")
     String findFilme(@PathVariable String genero);
 }

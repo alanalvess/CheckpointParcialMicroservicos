@@ -7,14 +7,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="playlist" />
-        <module name="biblioteca" />
         <module name="eureka" />
         <module name="configServer" />
-        <module name="musica" />
         <module name="catalogo" />
         <module name="gateway" />
-        <module name="jogos" />
+        <module name="filme" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -22,6 +19,7 @@
       <module name="catalogo" target="11" />
       <module name="configServer" target="11" />
       <module name="eureka" target="11" />
+      <module name="filme" target="11" />
       <module name="gateway" target="11" />
       <module name="jogos" target="11" />
       <module name="musica" target="11" />
@@ -34,6 +32,7 @@
       <module name="catalogo" options="-parameters" />
       <module name="configServer" options="-parameters" />
       <module name="eureka" options="-parameters" />
+      <module name="filme" options="-parameters" />
       <module name="gateway" options="-parameters" />
       <module name="jogos" options="-parameters" />
       <module name="musica" options="-parameters" />
