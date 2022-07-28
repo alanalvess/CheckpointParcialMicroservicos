@@ -14,5 +14,5 @@ info:
   author: Alan Alves
   mail: alan.alvess@outlook.com
 server:
-  port: ${PORT:8091}
+  port: ${PORT:9999}
 message: Generic Configuration
