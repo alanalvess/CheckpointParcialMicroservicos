@@ -8,19 +8,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="catalogo" />
+        <module name="gateway" />
         <module name="eureka" />
         <module name="configServer" />
-        <module name="gateway" />
         <module name="filme" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="biblioteca" target="11" />
-      <module name="catalogo" target="11" />
-      <module name="configServer" target="11" />
-      <module name="eureka" target="11" />
-      <module name="filme" target="11" />
-      <module name="gateway" target="11" />
+      <module name="catalogo" target="17" />
+      <module name="configServer" target="17" />
+      <module name="eureka" target="17" />
+      <module name="filme" target="17" />
+      <module name="gateway" target="17" />
       <module name="jogos" target="11" />
       <module name="musica" target="11" />
       <module name="playlist" target="11" />
