@@ -4,7 +4,9 @@
 
 ## O problema
 
-A partir da seguinte arquitetura de microsserviços, pedimos que você a implemente usando o Spring Cloud
+Utilizando o Spring Cloud, implementar a seguinte arquitetura de microserviços:
+
+![Arquitetura de Microsserviços](arquitetura.png)
 
 ## Estrutura
 
